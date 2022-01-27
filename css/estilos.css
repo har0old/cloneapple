@@ -1,0 +1,294 @@
+:root{
+    --font: "Raleway", sans-serif;
+    --textcolor: #000;
+    --linkcolor: #b1afaf; 
+    --parrafocolor: #838383; 
+    --headercolor: rgba(0,0,0,0.8);
+    --max-width:1300px
+}
+
+html{
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    color: var(--textcolor);
+}
+
+a{
+    color:var(--linkcolor);
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.75;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  h5 {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+  
+  h6 {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    line-height: 1.6;
+    color: var(--parrafocolor);
+    line-height: 1rem
+  }
+
+  .imagenlogo{
+      height: 1rem;
+  }
+  .header{
+      
+      height: 3rem;
+      background-color: rgba(0,0,0,0.8);
+  }
+  .navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: .5rem;
+  }
+  .svg-icon{
+      height: 1rem;
+      color: var(--linkcolor);
+      
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-width);
+  }
+  .baner-texto{
+      background-image: url(../img/iphone_12_updated__jepm2xpxncuy_large.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+        display: block;
+     text-align: center;
+     line-height: 3rem;
+     align-items: center;
+     padding: 6rem;
+     height: 40rem;
+  }
+
+  .link{
+    color: #2997ff;
+    text-decoration:none;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  @media (max-width: 768px) {
+    .baner-texto{
+      background-image: url(../img/iphone_12_.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+        display: block;
+     text-align: center;
+     line-height: 1rem;
+     align-items: center;
+     padding: 2rem;
+     height: 40rem;
+     
+  }
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 5rem;
+  }
+  }
+  .baner-texto2{
+    background-image: url(../img/bannertexto2m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 40rem;
+  }
+  .texto2{
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .baner-texto2{
+      background-image: url(../img/bannertexto2.jpg   );
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+        display: block;
+    text-align: center;
+    line-height: 1rem;
+    align-items: center;
+    padding: 2rem;
+    height: 40rem;
+    
+  }
+}
+
+
+
+  .baner-texto3{
+    background-image: url(../img/2m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 40rem;
+  }
+  .texto3{
+    color: #000;
+  }
+
+  @media (max-width: 768px) {
+    .baner-texto3{
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+      display: block;
+  text-align: center;
+  line-height: 1rem;
+  align-items: center;
+  padding: 2rem;
+  height: 40rem;
+  
+  }
+}
+.coleccion{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+ }
+@media (max-width: 768px) {
+  .coleccion{
+    
+  grid-template-columns: 1fr;
+  gap: 1rem;
+   }
+}
+
+
+.coleccion__n1{
+  background-image: url(../img/promo_privacy_image__cy6sgqrmyxiu_small.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 35rem;
+}
+.coleccion__n2{
+  background-image: url(../img/promo_physical__fyh9juzk5umy_small.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 35rem;
+}
+.coleccion__n3{
+  background-image: url(../img/promo_imac__crg641tip4q6_small.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 35rem;
+}
+.coleccion__n4{
+  background-image: url(../img/promo_watch_series_6_lte__f8lrasjnry2y_medium.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 35rem;
+}
+.coleccion__n5{
+  background-image: url(../img/promo_ipad_pro_non_avail__c6f02v7gnwgi_small.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 35rem;
+}
+.coleccion__n6{
+  background-image: url(../img/promo_airtag__e6b73a64nno2_small.jpg);;
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      display: block;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+  padding: 6rem;
+  height: 35rem;
+}
+
